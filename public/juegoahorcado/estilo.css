@@ -1,0 +1,24 @@
+#caja1{
+  background-color:rgb(78, 190, 64);
+  border: 2px solid red;
+      padding: 7px;
+      border-radius: 50px 20px;
+}
+
+#caja2{
+  background-color:rgb(37, 162, 179);
+  border: 2px solid yellow;
+    padding: 7px;
+    border-radius: 50px 20px;
+}
+
+#caja3{
+  background-color:rgb(219, 134, 120);
+  border: 2px solid blue;
+    padding: 7px;
+    border-radius: 50px 20px;
+}
+
+#fondo{
+  background-color: rgb(138, 144, 65);
+}
