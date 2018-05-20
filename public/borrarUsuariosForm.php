@@ -24,10 +24,10 @@
       	<input type="submit" value="Borrar Usuario">
     	</form>
 
-<br>
+<!-- <br>
       <form action="insertarUsuariosForm.php">
         <input type="submit" value="Insertar Usuarios">
-      </form>
+      </form> -->
 
 <br>
 
@@ -41,6 +41,8 @@
         <input type="submit" value="Mostrar Usuarios">
       </form>
 
-
+  <br>
+        <a href="logout.php">Cerrar Sesión</a>
   </body>
+
 </html>

@@ -2,11 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Panel Administrador</title>
   </head>
   <body>
 
-    <!-- <form action="actualizarUsuariosForm.php">
+    <form action="actualizarUsuariosForm.php">
       <input type="submit" value="Vamos a actualizar">
     </form>
 
@@ -16,11 +16,10 @@
       <input type="submit" value=" Vamos a borrar">
     </form>
 
-    <br>
 
-    <form action="insertarUsuariosForm.php">
+    <!-- <form action="insertarUsuariosForm.php">
       <input type="submit" value="Vamos a insertar">
-    </form>
+    </form> -->
 
     <br>
 
@@ -28,21 +27,8 @@
       <input type="submit" value="Mostrar Usuarios">
     </form>
 
-    <br>  -->
-
     <br>
 
-    <form action="insertarUsuariosForm.php">
-      <input type="submit" value="Insertar Usuario">
-    </form>
-
-    <br>
-
-    <form action="AccesoUsuarios.php">
-      <input type="submit" value="Acceso Usuarios">
-    </form>
-
-
-
+     <a href="logout.php">Cerrar Sesión</a>
   </body>
 </html>

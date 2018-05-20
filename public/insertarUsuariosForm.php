@@ -43,7 +43,7 @@
       	<input type="submit" value="Insertar Usuario"> <br><br>
 
         </form>
-
+<!-- 
         <form action="actualizarUsuariosForm.php">
           <input type="submit" value="Actualizar Usuarios">
         </form>
@@ -54,7 +54,7 @@
 <br>
         <form action="mostrarUsuarios.php">
           <input type="submit" value="Mostrar Usuarios">
-        </form>
+        </form> -->
 
 
 

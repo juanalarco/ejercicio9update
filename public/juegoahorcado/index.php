@@ -9,8 +9,8 @@ if(isset($_POST['nombre'])){
   $InicioDeSesion=new Sesiones(null);
 }
 
-if ($InicioDeSesion->getUsuario()==null) {
-  //header("location:../index.php");
+if ($InicioDeSesion->getUsuario()=='admin') {
+  header("location:../indexadmin.php");
 }
     echo "Has iniciado sesion como: ".$InicioDeSesion->getUsuario()."<br>";
 ?>
@@ -47,15 +47,8 @@ if ($InicioDeSesion->getUsuario()==null) {
     </form>
 
 <br>
-  <!-- Creamos boton de logOut -->
-  <form action="../AccesoUsuarios.php">
-  <input type="submit" value="Cerrar Sesion">
-
-  <?php
-  //Creamos variable y usamos la funcion de logout alojada en Sesiones.php
-  // ($InicioDeSesion lo cogemos donde usamos el objetos Sesiones)
-    $Logout=$InicioDeSesion->logout();
-   ?>
+  <!-- Creamos boton de logout -->
+   <a href="../logout.php">Cerrar Sesión</a>
   </form>
 
   </body>

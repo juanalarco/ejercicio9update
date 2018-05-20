@@ -46,10 +46,12 @@ use Daw\models\Usuarios;
 
     <br>
 
-    <form action="insertarUsuariosForm.php">
+    <!-- <form action="insertarUsuariosForm.php">
       <input type="submit" value="Vamos a insertar">
-    </form>
+    </form> -->
 
+    <br>
+      <a href="logout.php">Cerrar Sesión</a>
 
   </body>
 </html>

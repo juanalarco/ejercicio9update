@@ -11,7 +11,6 @@ class Sesiones extends Usuarios
   function __construct($nombre)
   {
     session_start();
-		echo "sesion ".$_SESSION["nombre"];
 		if(isset($_SESSION["nombre"])){
 			//Sesion ya se habia establecido y se habia almacenado el usuario
 			$this->usuarios=$_SESSION["nombre"];

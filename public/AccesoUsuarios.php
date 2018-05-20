@@ -40,7 +40,7 @@ use Daw\models\Usuarios;
 
           ?>
         </select>
-        <input type="submit" name="entrar" value="Vamos al ahorcado">
+        <input type="submit" name="entrar" value="Acceder">
   </form>
 
 
